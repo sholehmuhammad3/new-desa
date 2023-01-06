@@ -288,9 +288,9 @@ defined('BASEPATH') || exit('No direct script access allowed');
 		<footer class="main-footer">
 			<div class="container">
 				<div class="pull-right hidden-xs">
-					<b>Versi</b> <?= AmbilVersi() ?>
+<!--					<b>Versi</b> --><?php //= AmbilVersi() ?>
 				</div>
-				<strong>Aplikasi <a href="https://github.com/OpenSID/OpenSID" target="_blank"> OpenSID</a>, dikembangkan oleh <a href="https://www.facebook.com/groups/OpenSID/" target="_blank">Komunitas OpenSID</a>.</strong>
+<!--				<strong>Aplikasi <a href="https://github.com/OpenSID/OpenSID" target="_blank"> OpenSID</a>, dikembangkan oleh <a href="https://www.facebook.com/groups/OpenSID/" target="_blank">Komunitas OpenSID</a>.</strong>-->
 			</div>
 		</footer>
 	</div>
