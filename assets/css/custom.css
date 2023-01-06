@@ -1,0 +1,72 @@
+.main-header .navbar {
+    box-shadow: 0 0 30px 0 rgb(57 85 120 / 10%);
+    background: white !important;
+    color: black !important;
+}
+
+.main-header .logo {
+    background: white !important;
+    color: black !important;
+}
+
+.main-header .navbar .nav>li>a {
+    color: black !important;
+}
+.main-sidebar {
+    background: #F3F6F9 !important;
+    color: black !important;
+}
+.sidebar a {
+    color: #0e0e0e !important;
+}
+.sidebar-menu>li:hover>a, .sidebar-menu>li.menu-open>a, .sidebar-menu>li.active>a, .sidebar-menu>li.header {
+    background: #0d365d !important;
+    color: white !important;
+}
+.sidebar-menu .active>.treeview-menu, .sidebar-menu>li>.treeview-menu {
+    background: white !important;
+}
+
+.main-header .navbar .sidebar-toggle {
+    color: black !important;
+}
+
+
+.box {
+    box-shadow: 0 10px 30px rgb(57 85 120 / 10%) !important;
+    border-radius: 10px;
+}
+
+.box-footer {
+    border-bottom-right-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+}
+
+.box.box-info {
+    border-top-color: #0d365d;
+}
+.btn {
+    border-radius: 8px !important;
+    padding: 7px 30px !important;
+}
+
+.btn-info {
+    background-color: #0d365d;
+    border-color: #0d365d;
+}
+.btn-info:hover {
+    background-color: #0d365d;
+    border-color: #0d365d;
+}
+
+.btn-social.btn-sm> :first-child {
+    line-height: 28px !important;
+}
+
+.btn-social>:first-child {
+    border-right: none !important;
+}
+.small-box {
+    box-shadow: 0 0 30px 0 rgb(57 85 120 / 10%);
+    border-radius: 10px;
+}
