@@ -44,6 +44,19 @@ body {
 .info-box-icon {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
+  background: white !important;
+}
+
+.info-box {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.nav>li a{
+  transition: background 0.3s ease-in-out;
+}
+
+.info-box:hover {
+  box-shadow: 0 5px 20px rgba(0,0,0,0.3);
 }
 
 .info-box-text-widget {
@@ -729,4 +742,7 @@ a.pendapat > p {
   display: none;
 }
 
+.navbar {
+  background: white;
+}
 /** End jQuery Smart Wizard  **/

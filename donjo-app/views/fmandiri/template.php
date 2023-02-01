@@ -106,7 +106,7 @@ defined('BASEPATH') || exit('No direct script access allowed');
 	<?php $this->load->view('head_tags') ?>
 </head>
 
-<body class="hold-transition skin-blue fixed layout-top-nav">
+<body class="hold-transition fixed layout-top-nav">
 	<div class="wrapper">
 		<header class="main-header">
 			<nav class="navbar navbar-static-top">
@@ -115,7 +115,7 @@ defined('BASEPATH') || exit('No direct script access allowed');
 						<a class="navbar-brand" href="<?= site_url() ?>">
 							<img src="<?= gambar_desa($desa['logo']) ?>" class="logo-brand" alt="<?= $desa['nama_desa'] ?>" />
 						</a>
-						<div class="navbar-brand">
+						<div class="navbar-brand text-blue">
 							<?= ucwords($this->setting->sebutan_desa . ' ' . $desa['nama_desa']) ?>
 						</div>
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
@@ -128,7 +128,7 @@ defined('BASEPATH') || exit('No direct script access allowed');
 							<li><a href="<?= site_url('layanan-mandiri/profil') ?>">Profil</a></li>
 							<li><a href="<?= site_url('layanan-mandiri/permohonan-surat') ?>">Surat</a></li>
 							<li><a href="<?= site_url('layanan-mandiri/pesan-masuk') ?>">Pesan</a></li>
-							<li><a href="<?= site_url('layanan-mandiri/lapak') ?>">Lapak</a></li>
+<!--							<li><a href="--><?php //= site_url('layanan-mandiri/lapak') ?><!--">Lapak</a></li>-->
 							<li><a href="<?= site_url('layanan-mandiri/bantuan') ?>">Bantuan</a></li>
 							<li><a href="<?= site_url('layanan-mandiri/kehadiran') ?>">Perangkat</a></li>
 						</ul>
@@ -181,8 +181,8 @@ defined('BASEPATH') || exit('No direct script access allowed');
 				<section class="content-header fixed">
 					<div class="row hidden-xs">
 						<a href="<?= site_url('layanan-mandiri/permohonan-surat') ?>">
-							<div class="col-md-3 col-sm-6 col-xs-12">
-								<div class="info-box bg-green">
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<div class="info-box">
 									<span class="info-box-icon"><i class="fa fa-file-word-o"></i></span>
 									<div class="info-box-content">
 										<span class="info-box-text-widget">Surat</span>
@@ -191,8 +191,8 @@ defined('BASEPATH') || exit('No direct script access allowed');
 							</div>
 						</a>
 						<a href="<?= site_url('layanan-mandiri/pesan-masuk') ?>">
-							<div class="col-md-3 col-sm-6 col-xs-12">
-								<div class="info-box bg-yellow">
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<div class="info-box">
 									<span class="info-box-icon"><i class="fa fa-envelope-o"></i></span>
 									<div class="info-box-content">
 										<span class="info-box-text-widget">Pesan</span>
@@ -200,19 +200,19 @@ defined('BASEPATH') || exit('No direct script access allowed');
 								</div>
 							</div>
 						</a>
-						<a href="<?= site_url('layanan-mandiri/lapak') ?>">
-							<div class="col-md-3 col-sm-6 col-xs-12">
-								<div class="info-box bg-aqua">
-									<span class="info-box-icon"><i class="fa fa-cart-plus"></i></span>
-									<div class="info-box-content">
-										<span class="info-box-text-widget">Lapak</span>
-									</div>
-								</div>
-							</div>
-						</a>
+<!--						<a href="--><?php //= site_url('layanan-mandiri/lapak') ?><!--">-->
+<!--							<div class="col-md-3 col-sm-6 col-xs-12">-->
+<!--								<div class="info-box">-->
+<!--									<span class="info-box-icon"><i class="fa fa-cart-plus"></i></span>-->
+<!--									<div class="info-box-content">-->
+<!--										<span class="info-box-text-widget">Lapak</span>-->
+<!--									</div>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--						</a>-->
 						<a href="<?= site_url('layanan-mandiri/kehadiran') ?>">
-							<div class="col-md-3 col-sm-6 col-xs-12">
-								<div class="info-box bg-red">
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<div class="info-box">
 									<span class="info-box-icon"><i class="fa fa-users"></i></span>
 									<div class="info-box-content">
 										<span class="info-box-text-widget">Perangkat</span>

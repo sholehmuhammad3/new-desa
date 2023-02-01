@@ -44,9 +44,12 @@
 	<?php endif; ?>
 
 	<!-- Form Wizard - smartWizard -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/smartwizard@5/dist/css/smart_wizard_all.min.css">
+<!--	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/smartwizard@5/dist/css/smart_wizard_all.min.css">-->
 </head>
 
+<?php
+// dd($this->setting->tampilan_anjungan);
+//?>
 <?php if ($this->setting->tampilan_anjungan == 1 && ! empty($this->setting->tampilan_anjungan_slider)) : ?>
 	<div id="sliderv" class="video-internal" style="display: none;">
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -127,7 +130,7 @@
 												<?php endif; ?>
 												<?php if ($this->session->aktif == true) : ?>
 													<div class="callout callout-danger" id="notif">
-														<p>Mohon Maaf, Akun Layanan Mandiri dapat digunakan setelah mendapatkan persetujuan dan proses verifikasi dari operator.</p>
+														<p>Hubungi Operator Desa / Kelurahan Untuk Aktivasi Akun Anda.</p>
 													</div>
 												<?php endif; ?>
 
@@ -145,7 +148,7 @@
 												</div>
 												<div class="form-group">
 													<a href="<?= site_url('layanan-mandiri/masuk-ektp') ?>">
-														<button type="button" class="btn btn-block bg-green"><b>MASUK DENGAN E-KTP</b></button>
+														<b>Masuk Dengan E-KTP <i class="fa fa-arrow-right ml-4"></i></b>
 													</a>
 												</div>
 												<?php if ($this->setting->tampilkan_pendaftaran) : ?>
@@ -196,7 +199,7 @@
 											<?php endif; ?>
 											<div class="form-group">
 												<a href="<?= site_url('layanan-mandiri/lupa-pin') ?>">
-													<button type="button" class="btn btn-block bg-green"><b>LUPA PIN</b></button>
+                                                    <b><span>Lupa PIN ?</span> <i class="fa fa-arrow-right ml-4"></i></b>
 												</a>
 											</div>
 										</form>

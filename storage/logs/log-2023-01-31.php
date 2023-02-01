@@ -1,32 +1,8 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 
-ERROR - 2023-01-06 02:24:29 --> 404 Page Not Found: Sitemn/index
-ERROR - 2023-01-06 02:25:12 --> 404 Page Not Found: Api/wilayah
-ERROR - 2023-01-06 02:25:55 --> 404 Page Not Found: Api/wilayah
-ERROR - 2023-01-06 02:25:57 --> 404 Page Not Found: Api/wilayah
-ERROR - 2023-01-06 02:25:58 --> 404 Page Not Found: Api/wilayah
-ERROR - 2023-01-06 02:25:58 --> 404 Page Not Found: Api/wilayah
-ERROR - 2023-01-06 02:25:59 --> 404 Page Not Found: Api/wilayah
-ERROR - 2023-01-06 02:25:59 --> 404 Page Not Found: Api/wilayah
-ERROR - 2023-01-06 02:25:59 --> 404 Page Not Found: Api/wilayah
-ERROR - 2023-01-06 02:26:00 --> 404 Page Not Found: Api/wilayah
-ERROR - 2023-01-06 02:26:00 --> 404 Page Not Found: Api/wilayah
-ERROR - 2023-01-06 02:26:01 --> 404 Page Not Found: Api/wilayah
-ERROR - 2023-01-06 02:26:02 --> 404 Page Not Found: Api/wilayah
-ERROR - 2023-01-06 02:26:02 --> 404 Page Not Found: Api/wilayah
-ERROR - 2023-01-06 02:26:02 --> 404 Page Not Found: Api/wilayah
-ERROR - 2023-01-06 02:26:02 --> 404 Page Not Found: Api/wilayah
-ERROR - 2023-01-06 02:26:02 --> 404 Page Not Found: Api/wilayah
-ERROR - 2023-01-06 02:26:02 --> 404 Page Not Found: Api/wilayah
-ERROR - 2023-01-06 02:26:04 --> 404 Page Not Found: Api/wilayah
-ERROR - 2023-01-06 02:26:06 --> 404 Page Not Found: Api/wilayah
-ERROR - 2023-01-06 02:26:06 --> 404 Page Not Found: Api/wilayah
-ERROR - 2023-01-06 02:26:06 --> 404 Page Not Found: Api/wilayah
-ERROR - 2023-01-06 02:26:13 --> 404 Page Not Found: Api/wilayah
-ERROR - 2023-01-06 02:26:18 --> 404 Page Not Found: Api/wilayah
-ERROR - 2023-01-06 02:28:06 --> 404 Page Not Found: Api/wilayah
-ERROR - 2023-01-06 09:49:49 --> Curl error: 
-ERROR - 2023-01-06 09:49:49 --> Array
+ERROR - 2023-01-31 21:47:42 --> Severity: error --> Exception: count(): Argument #1 ($value) must be of type Countable|array, string given /Volumes/DATA/OTHER/SiDesa-2/donjo-app/helpers/opensid_helper.php 274
+ERROR - 2023-01-31 21:48:56 --> Curl error: 
+ERROR - 2023-01-31 21:48:56 --> Array
 (
     [url] => /index.php/api/track/desa?token=da39a3ee5e6b4b0d3255bfef95601890afd80709
     [content_type] => 
@@ -70,8 +46,8 @@ ERROR - 2023-01-06 09:49:49 --> Array
     [total_time_us] => 0
 )
 
-ERROR - 2023-01-06 22:28:25 --> Curl error: 
-ERROR - 2023-01-06 22:28:25 --> Array
+ERROR - 2023-01-31 21:51:18 --> Curl error: 
+ERROR - 2023-01-31 21:51:18 --> Array
 (
     [url] => /index.php/api/track/desa?token=da39a3ee5e6b4b0d3255bfef95601890afd80709
     [content_type] => 
@@ -115,4 +91,4 @@ ERROR - 2023-01-06 22:28:25 --> Array
     [total_time_us] => 0
 )
 
-ERROR - 2023-01-06 15:28:35 --> 404 Page Not Found: Api/wilayah
+ERROR - 2023-01-31 15:44:05 --> 404 Page Not Found: Api/wilayah

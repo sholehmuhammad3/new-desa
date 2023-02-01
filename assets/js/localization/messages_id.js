@@ -3,8 +3,8 @@
  * Locale: ID (Indonesia; Indonesian)
  */
 $.extend($.validator.messages, {
-	required: "Kolom ini diperlukan.",
-	remote: "Harap benarkan kolom ini.",
+	required: "Harus diisi.",
+	remote: "Inputan belum sesuai.",
 	email: "Silakan masukkan format email yang benar.",
 	url: "Silakan masukkan format URL yang benar.",
 	date: "Silakan masukkan format tanggal yang benar.",
